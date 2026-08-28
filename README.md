@@ -1,5 +1,7 @@
 # implied-rnd
 
+[![ci](https://github.com/Amir-stu/implied-risk-neutral-density/actions/workflows/ci.yml/badge.svg)](https://github.com/Amir-stu/implied-risk-neutral-density/actions/workflows/ci.yml)
+
 Option prices contain the market's whole probability distribution for where a
 price ends up, not just its volatility. This package extracts it.
 
