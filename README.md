@@ -130,7 +130,7 @@ falls away. A flat wing always satisfies the condition, so the search cannot fai
 pytest --cov=rnd --cov-report=term-missing
 ```
 
-213 tests, 96% coverage. The ones that matter score the estimator against ground
+213 tests, 97% coverage. The ones that matter score the estimator against ground
 truth: chains are generated from a mixture of lognormals, which has closed-form
 option prices *and* a closed-form density, so the estimate is compared with the
 exact answer rather than eyeballed on a chart. Recovery is within about 1% in L1
